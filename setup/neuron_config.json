@@ -1,0 +1,19 @@
+{
+    "num_neuron_cores": 4,
+    "batch_size": 8,
+    "input_shapes": {
+        "input_ids": [1, 128],
+        "attention_mask": [1, 128]
+    },
+    "precision_mode": "FP32",
+    "optimization_level": 2,
+    "profiling": {
+        "enabled": true,
+        "output_path": "profiling_reports"
+    },
+    "debugging": {
+        "log_level": "INFO",
+        "log_file": "neuron_debug.log"
+    }
+}
+
